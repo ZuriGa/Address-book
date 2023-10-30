@@ -19,3 +19,7 @@ Output: first and last name and phone number.
 Test: It should assigned an ID to contacts once they are created.
 Code: AddressBook.prototype.assignId = function() 
 Output: Contact number. 1
+
+Test: It should retrieve contact information by its Id property.
+Code: AddressBook.prototype.findContact()
+Output: Contact {firstName: , lastName: , phoneNumber: }

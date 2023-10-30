@@ -8,6 +8,14 @@ Test: It should add a prototype method to call first and last name together.
 Code: Contact.prototype.fullName = function () / return this.firstName + " " + this.lastName;
 Output: first and last name together
 
+Test: It should store contact information to our address book.
+Code: function AddressBook()
+Output: empty string
 
+Test: It should add new contact information to the AddressBook.
+Code: AddressBook.prototype.addContact = function(contact)
+Output: first and last name and phone number.
 
-
+Test: It should assigned an ID to contacts once they are created.
+Code: AddressBook.prototype.assignId = function() 
+Output: Contact number. 1

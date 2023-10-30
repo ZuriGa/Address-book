@@ -23,3 +23,7 @@ Output: Contact number. 1
 Test: It should retrieve contact information by its Id property.
 Code: AddressBook.prototype.findContact()
 Output: Contact {firstName: , lastName: , phoneNumber: }
+
+Test: It should delete a contact from our AddressBook.
+Code: AddressBook.prototype.deleteContact = function(id)
+Output: 

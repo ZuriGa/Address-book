@@ -26,4 +26,4 @@ Output: Contact {firstName: , lastName: , phoneNumber: }
 
 Test: It should delete a contact from our AddressBook.
 Code: AddressBook.prototype.deleteContact = function(id)
-Output: 
+Output: true; will show only the 1 remainder contact.
